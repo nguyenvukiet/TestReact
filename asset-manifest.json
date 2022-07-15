@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nguyenvukiet/TestReact/static/css/main.21256424.css",
+    "main.js": "/nguyenvukiet/TestReact/static/js/main.64cd3bc2.js",
+    "static/js/787.5d27e9d5.chunk.js": "/nguyenvukiet/TestReact/static/js/787.5d27e9d5.chunk.js",
+    "static/media/boxicons.svg": "/nguyenvukiet/TestReact/static/media/boxicons.0153fb5e5b5f697b4bcc.svg",
+    "static/media/boxicons.eot": "/nguyenvukiet/TestReact/static/media/boxicons.21f7c5dd64d88e1fc666.eot",
+    "static/media/boxicons.woff": "/nguyenvukiet/TestReact/static/media/boxicons.02aa967c5bfb9489501a.woff",
+    "static/media/boxicons.ttf": "/nguyenvukiet/TestReact/static/media/boxicons.ad0ddae357213656b3e6.ttf",
+    "static/media/boxicons.woff2": "/nguyenvukiet/TestReact/static/media/boxicons.0335b427967c56248ea6.woff2",
+    "static/media/banner.jpg": "/nguyenvukiet/TestReact/static/media/banner.d2535c19c17dc4111490.jpg",
+    "static/media/nut.png": "/nguyenvukiet/TestReact/static/media/nut.4170571e4d5b02c05337.png",
+    "static/media/logo.png": "/nguyenvukiet/TestReact/static/media/logo.4109ca251e6e73f42756.png",
+    "index.html": "/nguyenvukiet/TestReact/index.html",
+    "main.21256424.css.map": "/nguyenvukiet/TestReact/static/css/main.21256424.css.map",
+    "main.64cd3bc2.js.map": "/nguyenvukiet/TestReact/static/js/main.64cd3bc2.js.map",
+    "787.5d27e9d5.chunk.js.map": "/nguyenvukiet/TestReact/static/js/787.5d27e9d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21256424.css",
+    "static/js/main.64cd3bc2.js"
+  ]
+}
