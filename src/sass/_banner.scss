@@ -1,0 +1,68 @@
+.banner {
+    height: 550px;
+    position: relative;
+    font-family: Arial;
+    margin-top: 100px;
+
+    @include table {
+        margin-top: 10px;
+        padding-bottom: 50px;
+        height: 600px;
+        
+    }
+   
+
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    &__text {
+        position: absolute;
+        right: 150px;
+        top: 15%;
+        color: white;
+        width: 40%;
+
+        @include table {
+            right:50px;
+            top: 25%;
+            
+        }
+
+        &__big {
+            font-size:4rem;
+            font-weight: 600;
+            margin-bottom:25px;
+
+            @include table {
+                font-size:2rem;
+            }
+        }
+
+        &__small {
+            font-size:1.5rem;
+            margin-bottom:25px;
+
+            @include table {
+                font-size:1.2rem;
+            }
+
+        }
+
+        &__btn {
+            img {
+                min-width: 170px;
+                width: 43%;
+            }
+        }
+
+        &__middle {
+            margin-top:15px;
+            font-size:1.5rem;
+            margin-left: 13%;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.footer{
+    font-size: 1.3rem;
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+    padding-top: 20px;
+
+    &__title {
+        font-size:1.5rem;
+        font-weight: 600;
+        margin-bottom:25px;
+    }
+
+    &__content {
+        color: #777;
+
+        p {
+            margin-bottom: 14px;
+
+        }
+    }
+
+    &__end {
+        margin-top:40px;
+        height: 70px;
+        text-align: center;
+
+        hr {
+            --tw-border-opacity: 1;
+            border-color: rgba(229, 231, 235, var(--tw-border-opacity));
+            height: 0;
+            color: inherit;
+        }
+
+        p{
+            line-height:70px;
+        }
+    }
+}

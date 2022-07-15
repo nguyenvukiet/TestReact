@@ -1,0 +1,230 @@
+.header {
+    background-color: $main-bg;
+    position:fixed;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    width: 100%;
+    box-shadow: $box-shadow;
+    height: $header-height;
+
+
+    
+
+    &__left {
+
+        width: 25%;
+        height: 100%;
+        margin-right: 50px;
+
+        &__logo {
+            width: 100%;
+            inset:0;
+
+            a {
+                padding-top: 85px;
+            }
+
+            a:hover {
+                cursor: pointer;
+            }
+           
+    
+ 
+            img {
+                line-height: 100%;
+                height: 72px;
+                max-height: 90px;
+                margin: 14px 0;
+            
+            }
+
+
+        }
+
+        @include table {
+               
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+
+    }
+
+    &__left, &__right {
+        @include flex(center,center)
+    }
+
+    &__right {
+        display: inline-flex;
+
+        &__item {
+            display: flex;
+            align-items: center;
+            margin-right: 30px;
+            color: #777;
+            font-size:1.3rem;
+            font-weight:600;
+            padding-top: 2px;
+            
+
+            @include flex(flex-start,flex-start);
+
+            @include table {
+           
+                font-size: 1.5rem;
+                border-bottom: 1px solid #777;
+                width: 100%;
+                position: relative;
+                margin-top: 60px;
+
+                a {
+                    width: 100%;
+                    padding: 12px 40px;
+                }
+
+                a:hover {
+                    box-shadow: $box-shadow;
+                }
+            }
+        }
+
+
+        @include mobile {
+            font-size: 1rem;
+        }
+
+        &__item.active{
+            color: black;
+        }
+
+        &__item > a:hover {
+            color: black;
+        }
+
+        &__btn-login {
+            background-color: #f29e33;
+            height: 36px;
+            width:85px;
+            color: white;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius:25px;
+            display: inline-block;
+
+        }
+
+        &__btn-login:hover {
+            background-color: #bd7e2c;
+            cursor: pointer;
+
+            a {
+                color: white;
+            }
+        }
+
+        &__close {
+            display: none;
+        }
+
+        &__mobile__toggle:hover,
+        &__close:hover{
+            cursor: pointer;
+        }
+
+
+
+        @include table {
+            flex-direction: column;
+            background-color: $main-bg;
+            position:absolute;
+            left:0;
+            top:0;
+            width:60%;
+            height:100vh;
+            justify-content: flex-start;
+            padding-top: 30px;
+            transform: translateX(-100%);
+            transition: transform 0.5s ease;
+
+            &.active {
+                transform: translateX(0%);
+
+            }
+
+            &__item ~ &__item {
+                margin-left: unset;
+                margin-top:0px;
+            }
+
+            &__close {
+                display:block;
+                position:absolute;
+                right: 10px;
+                font-size: 2.5rem;
+                padding:10px;
+            }
+        }
+
+        &__mobile__toggle {
+            display: none;
+
+            @include table {
+                display: block;
+                font-size: 2.5rem;
+            }
+        }  
+
+        @include table {
+
+            box-shadow: $box-shadow;
+
+        }
+        
+
+    }
+
+    .button-login {
+        @include table {
+            position: absolute;
+            top: 30%;
+            right: 15px;
+
+        }
+
+        button a {
+            padding:10px;
+        }
+    }
+
+    &__mobile__toggle {
+        display: none;
+
+        @include table {
+            display: block;
+            font-size: 2.5rem;
+        }
+    }   
+
+    .bx-menu {
+        top: 30%;
+        left: 15px;
+        display: flex;
+        position: absolute;
+    }
+
+
+ 
+
+ 
+}
+
+
+
+
+   
